@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:padding="@dimen/margin_basic_5dp"
+        android:src="@drawable/back_black"
+        android:layout_marginLeft="@dimen/margin_basic_16dp"
+        android:layout_marginRight="@dimen/margin_basic_16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/toolBarTitleTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="Enter OTP"
+        android:textSize="18sp"
+        android:fontFamily="@font/sf_pro_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

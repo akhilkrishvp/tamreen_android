@@ -1,0 +1,14 @@
+<resources>
+    <declare-styleable name="DeliveryDateTimeView">
+        <attr name="deliveryTitle" format="string|reference" />
+        <attr name="deliveryTitleColor" format="color" />
+        <attr name="deliveryIconDrawable" format="color|reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="EmptyViewLayout">
+        <attr name="title" format="string|reference" />
+        <attr name="iconDrawable" format="color|reference" />
+    </declare-styleable>
+
+</resources>

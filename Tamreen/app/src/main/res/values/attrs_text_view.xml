@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DJHTextView">
+        <attr name="djhCornerRadius" format="integer"></attr>
+       <!-- <attr name="borderColor" format="color|reference"></attr>-->
+        <attr name="backgroundColor" format="color|reference"></attr>
+        <attr name="borderSize" format="integer"></attr>
+       <!-- <attr name="fontType" format="integer"></attr>-->
+    </declare-styleable>
+</resources>

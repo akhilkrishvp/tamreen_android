@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#333333</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white2">#f9f9f9</color>
+    <color name="white3">#efeff4</color>
+    <color name="item_default_color">#8b8a93</color>
+    <color name="view_bgcolor">#8b8a93</color>
+    <color name="delivery_bg_color">#F2917B</color>
+    <color name="barand">#0c697e</color>
+    <color name="branded_1">#e4a993</color>
+    <color name="border">#efeff4</color>
+    <color name="radio_selector">#F3927C</color>
+    <color name="flw_blush">#F3927C</color>
+    <color name="txt_border_color">#3b3a41</color>
+    <color name="txt_bg_color">#F7F7F7</color>
+    <color name="txt_color">#333333</color>
+    <color name="txt_color1">#7b7b7b</color>
+    <color name="txt_color3">#22242a</color>
+    <color name="txt_color2">#797979</color>
+    <color name="txt_color4">#272833</color>
+    <color name="background_color_two">#f7f7f7</color>
+    <color name="cart_button_bg">#CDCDCD</color>929292
+    <color name="greyish">#a7a7a7</color>
+    <color name="greyish2">#999999</color>
+    <color name="greyish3">#8b8c8b</color>
+    <color name="black">#000000</color>
+    <color name="blue">#2B60DE</color>
+    <color name="note_bg_color">#fdefec</color>
+    <color name="navy_blue_color">#001f38</color>
+    <color name="translucent_black_bg">#65000000</color>
+    <color name="dark_grey">#979797</color>
+    <color name="grey">#8a8a8f</color>
+    <color name="card_bg_color">#e0e1e3</color>
+    <color name="greyish_2">#aeaeae</color>
+    <color name="checkout_header_bg">#E2E2E2</color>
+    <color name="thnk_u_orderDetail_color">#646464</color>
+    <color name="green">#008451</color>
+    <color name="red">#d53030</color>
+    <color name="red2">#ed1c24</color>
+    <color name="red1">#ff3b30</color>
+    <color name="btn_green">#2C982C</color>
+    <color name="divider_line">#DFDFDF</color>
+
+    <color name="header_color">#979797</color>
+    <color name="strock_color">#c8c8c8</color>
+    <color name="strok_color">#cccccc</color>
+    <color name="table_bg">#E2E2E2</color>
+    <color name="list_item_cart_bg">#FEFAF9</color>
+    <color name="foreground_material_light">#ffffff</color>
+    <color name="background_material_light">#000000</color>
+    <color name="transparent_bg">#00FFFFFF</color>
+    <color name="border_color">#cccccc</color>
+    <color name="filter_head_color">#333333</color>
+    <color name="divider_line_bg">#d7d7d7</color>
+    <color name="bar_tint_color">#0c2848</color>
+    <color name="cell_divider_color">#ccc</color>
+    <color name="my_account_color">#0c2848</color>
+
+    <color name="btn_colorPrimary">#2C982C</color>
+    <color name="orange">#fa810a</color>
+    <color name="selected_color">#FF9966</color>
+    <color name="unselected_color">#cfcfcf</color>
+    <color name="tab_unselected_color">#ebebeb</color>
+    <color name="tab_selected_color">#fcac8c</color>
+
+
+    <color name="branded_new">#0c697e</color>
+    <color name="brownish_grey">#666666</color>
+    <color name="brownish_grey_2">#c3c3c3</color>
+    <color name="blush">#e4a993</color>
+</resources>

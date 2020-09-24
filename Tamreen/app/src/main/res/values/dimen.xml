@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">276dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="font_size_11sp">11sp</dimen>
+    <dimen name="font_size_12sp">12sp</dimen>
+    <dimen name="font_size_13sp">13sp</dimen>
+    <dimen name="font_size_14sp">14sp</dimen>
+    <dimen name="font_size_16sp">16sp</dimen>
+    <dimen name="font_size_17sp">17sp</dimen>
+    <dimen name="font_size_20sp">20sp</dimen>
+    <dimen name="margin_basic_0dp">0dp</dimen>
+    <dimen name="margin_basic_5dp">5dp</dimen>
+    <dimen name="margin_basic_10dp">10dp</dimen>
+    <dimen name="margin_basic_11dp">11dp</dimen>
+    <dimen name="margin_basic_13dp">16dp</dimen>
+    <dimen name="margin_basic_14dp">14dp</dimen>
+    <dimen name="margin_basic_15dp">15dp</dimen>
+    <dimen name="margin_basic_16dp">16dp</dimen>
+    <dimen name="margin_basic_19dp">19dp</dimen>
+    <dimen name="margin_basic_20dp">20dp</dimen>
+    <dimen name="margin_basic_23dp">23dp</dimen>
+    <dimen name="margin_basic_24dp">24dp</dimen>
+    <dimen name="margin_basic_25dp">25dp</dimen>
+    <dimen name="margin_basic_29dp">29dp</dimen>
+    <dimen name="margin_basic_3dp">3dp</dimen>
+    <dimen name="margin_basic_4dp">4dp</dimen>
+    <dimen name="margin_basic_6dp">4dp</dimen>
+    <dimen name="margin_basic_8dp">8dp</dimen>
+    <dimen name="margin_basic_9dp">9dp</dimen>
+</resources>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@color/white"
+            android:elevation="4dp"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/view1"
+                    android:layout_width="@dimen/margin_basic_0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="@dimen/margin_basic_16dp"
+                    android:layout_marginRight="@dimen/margin_basic_16dp"
+                    android:background="@drawable/white_3_solid_curved_16"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent">
+
+                    <ImageView
+                        android:id="@+id/searchIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_basic_10dp"
+                        android:layout_marginRight="@dimen/margin_basic_10dp"
+                        android:src="@drawable/search"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="@dimen/margin_basic_0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="@dimen/margin_basic_10dp"
+                        android:fontFamily="@font/sf_pro_regular"
+                        android:text="@string/search"
+                        android:textColor="@color/grey"
+                        android:textSize="@dimen/font_size_17sp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/searchIcon"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <ImageView
+                        android:id="@+id/micIcon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_basic_10dp"
+                        android:layout_marginRight="@dimen/margin_basic_10dp"
+                        android:src="@drawable/mic"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="@dimen/margin_basic_0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_basic_16dp"
+                    android:layout_marginRight="@dimen/margin_basic_16dp"
+                    android:fontFamily="@font/sf_pro_bold"
+                    android:text="Home"
+                    android:textColor="@color/black"
+                    android:textSize="40sp"
+                    app:layout_constraintBottom_toTopOf="@+id/view1"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_gravity="bottom"
+                android:alpha="0"
+                android:background="@color/white"
+                android:contentInsetStart="0dp"
+                android:contentInsetLeft="0dp"
+                android:contentInsetEnd="0dp"
+                android:contentInsetRight="0dp"
+                android:paddingBottom="@dimen/margin_basic_10dp"
+                android:visibility="visible"
+                app:contentInsetEnd="0dp"
+                app:contentInsetLeft="0dp"
+                app:contentInsetRight="0dp"
+                app:contentInsetStart="0dp"
+                app:elevation="0dp">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/margin_basic_10dp"
+                        android:fontFamily="@font/sf_pro_bold"
+                        android:gravity="center_vertical"
+                        android:text="Home"
+                        android:layout_marginLeft="@dimen/margin_basic_16dp"
+                        android:layout_marginRight="@dimen/margin_basic_16dp"
+                        android:textColor="@color/black"
+                        android:textSize="22sp"
+                        app:layout_constraintBottom_toTopOf="@+id/searchView1"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/searchView1"
+                        android:layout_width="@dimen/margin_basic_0dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="@dimen/margin_basic_16dp"
+                        android:layout_marginRight="@dimen/margin_basic_16dp"
+                        android:background="@drawable/white_3_solid_curved_16"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent">
+
+                        <ImageView
+                            android:id="@+id/searchIcon1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_basic_10dp"
+                            android:layout_marginRight="@dimen/margin_basic_10dp"
+                            android:src="@drawable/search"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:layout_width="@dimen/margin_basic_0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="@dimen/margin_basic_10dp"
+                            android:fontFamily="@font/sf_pro_regular"
+                            android:text="@string/search"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/font_size_17sp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/searchIcon1"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/micIcon1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_basic_10dp"
+                            android:layout_marginRight="@dimen/margin_basic_10dp"
+                            android:src="@drawable/mic"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/scrollContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/titleTV"
+                android:layout_width="@dimen/margin_basic_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_basic_16dp"
+                android:layout_marginTop="@dimen/margin_basic_10dp"
+                android:layout_marginRight="@dimen/margin_basic_16dp"
+                android:fontFamily="@font/sf_pro_bold"
+                android:text="@string/pro_trainer_title"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/proTrainerList"
+                android:layout_width="@dimen/margin_basic_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_basic_16dp"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                android:paddingLeft="@dimen/margin_basic_25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titleTV" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/courseTypeTitleTV"
+                android:layout_width="@dimen/margin_basic_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_basic_16dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="@dimen/margin_basic_16dp"
+                android:fontFamily="@font/sf_pro_bold"
+                android:text="@string/explore_by_course_types"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/proTrainerList" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/courseTypeList"
+                android:layout_width="@dimen/margin_basic_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_basic_16dp"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                android:paddingLeft="@dimen/margin_basic_25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/courseTypeTitleTV" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/popularTeacherTitleTV"
+                android:layout_width="@dimen/margin_basic_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_basic_16dp"
+                android:layout_marginRight="@dimen/margin_basic_16dp"
+                android:layout_marginTop="35dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:fontFamily="@font/sf_pro_bold"
+                android:text="@string/popular_teachers"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/courseTypeList"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/popularTeachersList"
+                android:layout_width="@dimen/margin_basic_0dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/margin_basic_25dp"
+                android:paddingRight="@dimen/margin_basic_25dp"
+                android:layout_marginTop="@dimen/margin_basic_16dp"
+                android:clipToPadding="false"
+                android:overScrollMode="never"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/popularTeacherTitleTV"/>
+
+            <View
+                android:layout_width="@dimen/margin_basic_0dp"
+                android:layout_height="70dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/popularTeachersList" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

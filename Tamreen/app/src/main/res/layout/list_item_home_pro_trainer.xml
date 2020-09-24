@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/margin_basic_10dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="@dimen/margin_basic_10dp"
+        app:cardElevation="6dp"
+        app:cardPreventCornerOverlap="false"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/margin_basic_16dp">
+
+            <ImageView
+                android:id="@+id/proIV"
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginTop="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/test_image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/trainerNameTV"
+                android:layout_width="@dimen/margin_basic_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_basic_20dp"
+                android:layout_marginTop="@dimen/margin_basic_10dp"
+                android:layout_marginRight="@dimen/margin_basic_20dp"
+                android:fontFamily="@font/sf_pro_bold"
+                android:text="Mohammed Amir"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_20sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/proIV" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/coachTypeTV"
+                android:layout_width="@dimen/margin_basic_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_basic_20dp"
+                android:layout_marginRight="@dimen/margin_basic_20dp"
+                android:fontFamily="@font/sf_pro_regular"
+                android:text="Weight Loss Coach"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/font_size_12sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/trainerNameTV" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/reviewCountTV"
+                android:layout_width="@dimen/margin_basic_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_basic_5dp"
+                android:fontFamily="@font/sf_pro_regular"
+                android:text="34 Reviews"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/font_size_12sp"
+                android:layout_marginLeft="@dimen/margin_basic_5dp"
+                android:layout_marginRight="@dimen/margin_basic_5dp"
+                app:layout_constraintStart_toEndOf="@+id/ratingBar"
+                app:layout_constraintTop_toBottomOf="@+id/coachTypeTV" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_basic_16dp"
+                android:layout_marginTop="@dimen/margin_basic_10dp"
+                android:layout_marginRight="@dimen/margin_basic_16dp"
+                android:src="@drawable/right"
+                app:layout_constraintTop_toBottomOf="@+id/coachTypeTV"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <com.fuzzproductions.ratingbar.RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                app:minAllowedStars="1"
+                app:numStars="5"
+                app:starSize="15dp"
+                app:rating="3"
+                android:layout_marginTop="@dimen/margin_basic_5dp"
+                android:layout_marginLeft="@dimen/margin_basic_20dp"
+                android:layout_marginRight="@dimen/margin_basic_20dp"
+                app:starSpacing="1dp"
+                app:starMargin="6dp"
+                app:isIndicator="false"
+                app:emptyDrawable="@drawable/star_un_selected"
+                app:filledDrawable="@drawable/star_selected"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/coachTypeTV"
+                />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

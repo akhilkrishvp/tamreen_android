@@ -1,0 +1,55 @@
+
+<resources>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ok">مواف</string>
+    <string name="select_country">Select Country</string>
+    <string name="select_language">Select Language</string>
+    <string name="continue_">متابعة </string>
+    <string name="start_up_title">Your Ultimate \nPersonal Trainer </string>
+    <string name="start_up_title_2">Personalized workouts and plans for \nany fitness goal and skill level</string>
+    <string name="create_account">تسجيل حساب</string>
+    <string name="already_have_account">Already have account? </string>
+    <string name="log_in">تسجيل الدخول </string>
+    <string name="edit"><u>Edit</u></string>
+    <string name="login_text">Please log back \ninto your account </string>
+    <string name="back">Back </string>
+    <string name="sign_up">حساب جديد</string>
+    <string name="customer">Customer </string>
+    <string name="trainer">Trainer </string>
+    <string name="hint_phone">Your Mobile Number </string>
+    <string name="hint_password">Password </string>
+    <string name="hint_name">Name </string>
+
+    <string name="forgot">Forgot? </string>
+    <string name="error_phone">Please enter a valid mobile number </string>
+    <string name="error_password">Password should be minimum 8 characters </string>
+    <string name="signup_text">Get fit with our \nprofessional \ntraining coaches </string>
+    <string name="error_name">Please enter a valid name </string>
+    <string name="error_email">Please enter a valid email </string>
+    <string name="error_height">Please enter your height </string>
+    <string name="error_weight">Please enter your weight </string>
+    <string name="error_age">Please enter your age </string>
+    <string name="hint_email">Email </string>
+    <string name="hint_age">Age </string>
+    <string name="hint_height">Height </string>
+    <string name="hint_weight">Weight </string>
+    <string name="hint_degrees">Degrees </string>
+    <string name="hint_loccation">Location </string>
+    <string name="hint_description">Description </string>
+    <string name="hint_career_time">Career time </string>
+    <string name="hint_service_categories">Service categories </string>
+    <string name="create_profile">Create profile </string>
+    <string name="search">Search </string>
+    <string name="pro_trainer_title">Featured Professional\nTrainers </string>
+    <string name="explore_by_course_types">Explore by course types </string>
+    <string name="popular_teachers">Popular Teachers </string>
+    <string name="tab_home">Home </string>
+    <string name="tab_bookings">Bookings </string>
+    <string name="tab_chat">Chat </string>
+    <string name="tab_fav">Favorite </string>
+    <string name="tab_profile">Profile </string>
+
+
+</resources>

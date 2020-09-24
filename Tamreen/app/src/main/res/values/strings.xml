@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name"  translatable="false">Tamreen</string>
+    <string name="english"  translatable="false">English</string>
+    <string name="arabic"  translatable="false">العربية</string>
+    <string name="skip"  translatable="false">Skip</string>
+    <string name="loremipsum" translatable="false">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</string>
+
+    <string name="ok">OK</string>
+    <string name="select_country">Select Country</string>
+    <string name="select_language">Select Language</string>
+    <string name="create_account">Create Account </string>
+    <string name="continue_">Continue </string>
+    <string name="create_profile">Create profile </string>
+    <string name="back">Back </string>
+    <string name="customer">Customer </string>
+    <string name="trainer">Trainer </string>
+    <string name="hint_phone">Phone Number </string>
+    <string name="hint_password">Password </string>
+    <string name="hint_name">Name </string>
+    <string name="hint_email">Email </string>
+    <string name="hint_age">Age </string>
+    <string name="hint_height">Height </string>
+    <string name="hint_weight">Weight </string>
+    <string name="hint_degrees">Degrees </string>
+    <string name="hint_loccation">Location </string>
+    <string name="hint_description">Description </string>
+    <string name="hint_career_time">Career time </string>
+    <string name="hint_service_categories">Service categories </string>
+    <string name="forgot">Forgot? </string>
+    <string name="sign_up">Sign Up </string>
+    <string name="error_phone">Please enter a valid mobile number </string>
+    <string name="error_password">Password should be minimum 8 characters </string>
+    <string name="error_name">Please enter a valid name </string>
+    <string name="error_email">Please enter a valid email </string>
+    <string name="error_height">Please enter your height </string>
+    <string name="error_weight">Please enter your weight </string>
+    <string name="error_age">Please enter your age </string>
+    <string name="login_text">Please log back \ninto your account </string>
+    <string name="signup_text">Get fit with our \nprofessional \ntraining coaches </string>
+    <string name="already_have_account">Already have account? </string>
+    <string name="log_in"><u>Log In</u></string>
+    <string name="edit"><u>Edit</u></string>
+    <string name="start_up_title">Your Ultimate \nPersonal Trainer </string>
+    <string name="start_up_title_2">Personalized workouts and plans for \nany fitness goal and skill level</string>
+
+    <string name="search">Search </string>
+    <string name="pro_trainer_title">Featured Professional\nTrainers </string>
+    <string name="explore_by_course_types">Explore by course types </string>
+    <string name="popular_teachers">Popular Teachers </string>
+    <string name="tab_home">Home </string>
+    <string name="tab_bookings">Bookings </string>
+    <string name="tab_chat">Chat </string>
+    <string name="tab_fav">Favorite </string>
+    <string name="tab_profile">Profile </string>
+</resources>
